@@ -1,5 +1,5 @@
-import cosas.*
-import camion.*
+import cosas2.*
+import camion2.*
 
 describe "test del camion" {
 
@@ -11,8 +11,8 @@ describe "test del camion" {
     camion.cargar(ladrillos)
   }
 
-  test "el camion tiene un peso total de 1720" {
-    assert.equals(1720, camion.pesoTotal())
+  test "el camion tiene un peso total de 1734" {
+    assert.equals(1734, camion.pesoTotal())
   }
 
   test "el camion puede circular" {
